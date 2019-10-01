@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{88f91843-42de-43df-8849-180aa0fb6fe0}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{6d5ef6f4-3307-4cea-b5d5-af03b942d3d5}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{a7444b77-a652-4f7b-800f-0a067c1b92e5}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Bitmaps.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Invaders.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Logic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sounds.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Invaders.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Bitmaps.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Invaders.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Logic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sounds.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="alien1_1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="alien1_2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="alien2_1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="alien2_2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="alien3_1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="alien3_2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="aliens21.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="aliens22.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="aliensh1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="backg2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="backgound.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="background22.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="background23.BMP">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="defence1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="defence2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="defence3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="defref1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="defref2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="defref3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="expl1_1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="expl1_2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="expl1_3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Invaders.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="live.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="mship.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="small.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="tank.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="tank_sho.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="big_explosion.wav" />
+    <Media Include="chop.wav" />
+    <Media Include="explosion.wav" />
+    <Media Include="laser.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+</Project>

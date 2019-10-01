@@ -1,0 +1,209 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "windows.h"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+#include "resource.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_INVADERS            ICON    DISCARDABLE     "Invaders.ICO"
+IDI_SMALL               ICON    DISCARDABLE     "SMALL.ICO"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDC_INVADERS MENU DISCARDABLE 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&New",                        IDM_NEW
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit",                       IDM_EXIT
+    END
+    POPUP "&Options"
+    BEGIN
+        MENUITEM "&No Sound",                   IDM_NOSOUND
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&About ...",                  IDM_ABOUT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDC_INVADERS ACCELERATORS MOVEABLE PURE 
+BEGIN
+    "?",            IDM_ABOUT,              ASCII,  ALT
+    "/",            IDM_ABOUT,              ASCII,  ALT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  22, 17, 230, 80
+STYLE DS_MODALFRAME | WS_CAPTION | WS_SYSMENU
+CAPTION "About"
+FONT 8, "System"
+BEGIN
+    ICON            IDI_INVADERS,IDC_MYICON,15,17,16,16
+    LTEXT           "Invaders Version 1.0",IDC_STATIC,44,10,119,8,
+                    SS_NOPREFIX
+    LTEXT           "Daniele Faggi, Copyright (C) 2006",IDC_STATIC,44,19,119,
+                    8
+    DEFPUSHBUTTON   "OK",IDOK,195,6,30,11,WS_GROUP
+    LTEXT           "To move tank use the left/right arrow keys",IDC_STATIC,
+                    44,53,152,9
+    LTEXT           "Use the up arrow key to fire",IDC_STATIC,44,61,152,10
+    LTEXT           "Licensed under latest GNU GPL license",IDC_STATIC,44,28,
+                    141,8
+    LTEXT           "http://www.fsf.org",IDC_STATIC,44,38,141,8
+END
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""windows.h""\r\n"
+    "#undef APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""resource.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_TANK                BITMAP  DISCARDABLE     "tank.bmp"
+IDB_ALIEN1_1            BITMAP  DISCARDABLE     "alien1_1.bmp"
+IDB_ALIEN1_2            BITMAP  DISCARDABLE     "alien1_2.bmp"
+IDB_TANK_SHOOT          BITMAP  DISCARDABLE     "tank_sho.bmp"
+IDB_ALIEN_SHOOT1        BITMAP  DISCARDABLE     "aliensh1.bmp"
+IDB_ALIEN_SHOOT2_1      BITMAP  DISCARDABLE     "aliens21.bmp"
+IDB_ALIEN_SHOOT2_2      BITMAP  DISCARDABLE     "aliens22.bmp"
+IDB_DEFENCE1            BITMAP  DISCARDABLE     "defence1.bmp"
+IDB_DEFENCE2            BITMAP  DISCARDABLE     "defence2.bmp"
+IDB_DEFENCE3            BITMAP  DISCARDABLE     "defence3.bmp"
+IDB_EXPL1_1             BITMAP  DISCARDABLE     "expl1_1.bmp"
+IDB_EXPL1_2             BITMAP  DISCARDABLE     "expl1_2.bmp"
+IDB_EXPL1_3             BITMAP  DISCARDABLE     "expl1_3.bmp"
+IDB_ALIEN2_1            BITMAP  DISCARDABLE     "alien2_1.bmp"
+IDB_ALIEN2_2            BITMAP  DISCARDABLE     "alien2_2.bmp"
+IDB_ALIEN3_1            BITMAP  DISCARDABLE     "alien3_1.bmp"
+IDB_ALIEN3_2            BITMAP  DISCARDABLE     "alien3_2.bmp"
+IDB_BACKG1              BITMAP  DISCARDABLE     "background23.BMP"
+IDB_LIVE                BITMAP  DISCARDABLE     "live.bmp"
+IDB_MSHIP               BITMAP  DISCARDABLE     "mship.bmp"
+IDB_DEFREF1             BITMAP  DISCARDABLE     "defref1.bmp"
+IDB_DEFREF2             BITMAP  DISCARDABLE     "defref2.bmp"
+IDB_DEFREF3             BITMAP  DISCARDABLE     "defref3.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// WAVE
+//
+
+IDR_LASER               WAVE    DISCARDABLE     "laser.wav"
+IDR_EXPLOSION           WAVE    DISCARDABLE     "explosion.wav"
+IDR_BIGEXPLOSION        WAVE    DISCARDABLE     "big_explosion.wav"
+IDR_SMALLEXPLOSION      WAVE    DISCARDABLE     "chop.wav"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        VERTGUIDE, 44
+        BOTTOMMARGIN, 77
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_APP_TITLE           "Invaders"
+    IDS_HELLO               "Hello World!"
+    IDC_INVADERS            "INVADERS"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
